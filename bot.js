@@ -1,16 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
 
 client.on('ready', () => {
-  console.log(`...`);  
 });
 
 client.on('ready', async() => {
 var server = "514822456998101002"; //
 var channel = "514822457706807312";//
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein hussein**')
+    client.guilds.get(server).channels.get(channel).send('**._.**')
     },305);
  });
 
